@@ -102,18 +102,32 @@ Capital Bike Share holds 599 stations in Washington DC.
 ## KPIs
 
 **Growing ridership: 
+
 1) 49% increased in casual, 67 % increased in registered next year 
 PHOTO
 2) Casual users demand is throughout the day (09:00-19:00), whereas registered riders demand peaks at rush hours. 
-PHOTO 
+
+<div align="center">
+<img src="/images/Hourly_Distribution.png" width="500px"</img> 
+</div>
+
 **User preference and behaviour:
+
 3) Demand increases with temperature, whereas decreasing with humidity and cold weather
-PHOTO
+
+<div align="center">
+<img src="/images/Temperature-Demand.png" width="400px"</img> 
+</div>
+
 **Supply and Demand: 
+
 4) Most demanding bike stations for registered and casual 
 PHOTO
 5) Casual users average ride duration is 3x longer than registered users 
-PHOTO
+
+<div align="center">
+<img src="/images/Duration.png " width="400px"</img> 
+</div>
 
 ## Summary
 
