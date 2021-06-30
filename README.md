@@ -14,7 +14,7 @@ Performance evaluation of "Capital Bike Share" bike-sharing system
     * [Programming Languages](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Data) 
 * [Empowering the business](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#bikesharing---the-domain)
   * [Growing ridership](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
-    * [Users and trip profiles](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
+    * [Users and time profiles](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
   * [Users’ preferences and behaviors](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
     * [Features and model performance](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
   * [Supply and demand analysis](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
@@ -49,5 +49,37 @@ We were provided with a dataset containing hourly and daily count of rental bike
 
 #### Programing languages
 The programming language used was Python 3.7.7 64-bit. The following packages were used: pandas, numpy, seaborn, matplotlib.pyplot, scikit-learn, statsmodels, plotly, datetime, holidays, prophet. 
+
+## Empowering the business   
+To be able to reach our aim three performance evaluation groups were investigated: 
+
+### Growing ridership (LINK TO THE FILE)
+Daily count rider bikes was taken account for the ridership analysis: 
+#### Users Profile   
+   1) Registered customers demand is 4 x more than casual in 2011-2012
+   2) Both users show increase in 2012 compared to 2011
+
+#### Time Profile
+#####   **Hourly Profile** 
+   1) Holiday time/weekend preferred time (12:00-17:00)
+   2) During the week time rush hour (7:00-09:00 / 17:00-19:00) is most demanding 
+   3) Casual users demand is throughout the day (09:00-19:00)
+#####    **Weekly Profile**
+   5) Registered users use more during the week whereas casual users prefer during the weekend
+#####    **Monthly/Seasonal Profile**
+   7) the most demand is on 6th and 9th months
+   8) 2 years show similar seasonal pattern , 2012 shows higher demand
+#####    **Yearly Profile**
+   9) Demand increased by 63% in 2012 compared to 2011  
+
+### User preference and behaviour (LINK TO THE FILE) 
+##### Correlation Matrix 
+
+Features of 'season', 'yr’, weather, ‘hr, mnth, 'temp',  'hum' 
+
+
+
+
+
 
 
