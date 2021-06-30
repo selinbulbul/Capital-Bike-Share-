@@ -46,6 +46,9 @@ We were provided with a dataset containing hourly and daily count of rental bike
 </div>
 
 #### Files Description
+Daily Data Visualisations.ipynb: daily count of rental bikes (2011-2012) 
+Hour Data: hourly count of rental bikes (2011-2012) 
+Feature Importance- Correlation Matrix- Hour Data.ipynb: 
 
 
 #### Programing languages
