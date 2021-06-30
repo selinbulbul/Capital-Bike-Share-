@@ -10,16 +10,17 @@ Performance evaluation of "Capital Bike Share" bike-sharing system
 * [Introduction](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Introduction)
   * [Motivation](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Motivation)  
   * [Data](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Data) 
-    * [Files Description](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Files Description)  
-    * [Programming Languages](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Programming Languages) 
-* [Empowering the business](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#bikesharing---Empowering the Business)
-  * [Growing ridership](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
-    * [Users and time profiles](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
-  * [Users’ preferences and behaviors](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
-    * [Features and model performance](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
-  * [Supply and demand analysis](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
-* [KPIs](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#timeseries---facebook-prophet)
-* [Summary](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#building-a-flask-app)
+    * [Files Description](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Files-Description)  
+    * [Programming Languages](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Programming-Languages) 
+* [Empowering the business](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#bikesharing---Empowering-the-Business)
+  * [Growing ridership](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Growing-ridership)
+    * [Users and time profiles](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Users-and-time-profiles)
+  * [Users’ preferences and behaviors](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Users’-preferences-and-behaviors)
+    * [Features and model performance](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Features-and-model-performance)
+  * [Supply and demand analysis](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Supply-and-demand-analysis)
+  * [Pollution effect on bike demand](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Pollution-effect-on-bike-demand)
+* [KPIs](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#KPIs)
+* [Summary](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Summary)
 * [Data sources](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#data-sources)
 * [Legal Terms](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#legal-terms)
 
@@ -30,7 +31,7 @@ Micromobility in US shows big increase from 2010. Increasing population, and tra
 > “The growth of bike share shows no signs of stopping.” NACTO, National Association of City Transportation Officials, reported in 2017
 
 ### Motivation
-The aim of this project based on analyzing the data of the “Capital Bikeshare” empower their business. Based on Washington DC Capital bikeshare provides bikeshare system, with more than 4,300 bikes available at 500 stations. Bikes are available 24 hours a day, 7 days a week, 365 days a year.  We were asked firstly to provide some proofs of how and which features has an effect on demand of bikes and secondly measuring KPIs to ensure that one can accomplish the business objective. We are expected to find also an answer how pollution effects the demand of bikes and The **project challenges** include finding the right features correlated with the bike demand through proofs with visualization and machine learning, finding model fits the best to the dataset, and predicting business growth with time series analysis. 
+The aim of this project based on analyzing the data of the “Capital Bikeshare” empower their business. Based on Washington DC Capital bikeshare provides bikeshare system, with more than 4,300 bikes available at 500 stations. Bikes are available 24 hours a day, 7 days a week, 365 days a year.  We were asked firstly to provide some proofs of how and which features has an effect on demand of bikes and secondly measuring KPIs to ensure that one can accomplish the business objective. We are expected to understand how pollution effects the demand of bikes and the most popular bike stations. The **project challenges** include finding the right features correlated with the bike demand through proofs with visualization and machine learning, finding model fits the best to the dataset, and predicting business growth with time series analysis. 
 
 ### Data
 We were provided with a dataset containing hourly and daily count of rental bikes (2011-2012), as well as data (2021) from capital bikeshare website obtained to analyze the request of the complains about the non-availability of bikes. 
@@ -53,7 +54,7 @@ The programming language used was Python 3.7.7 64-bit. The following packages we
 ## Empowering the business   
 To be able to reach our aim three performance evaluation groups were investigated: 
 
-### Growing ridership (LINK TO THE FILE)
+### Growing ridership (LINK TO THE FILE) (TIME SERIES ANALYSIS) 
 Daily count rider bikes was taken account for the ridership analysis: 
 #### Users Profile   
    1) Registered customers demand is 4 x more than casual in 2011-2012
@@ -88,7 +89,37 @@ A correlation matrix is a table showing which features (independent variables) h
 
 We can use regression analysis to understand the relationship between one or more independent variables and a dependent variable. To check how well a regression model fits a dataset one way would be to calculate the root mean square error (RMSE). RMSE is a metric providing the square root of the average of squared distance between the prediction  from the model and the actual values in the dataset. Using the selected features "Random Forest Regressor" showed the best fit to the dataset. 
 
-## Supply and Demand 
+## Supply and Demand (LINK)
+
+Capital Bike Share holds 599 stations in Washington DC. 
+
+**Registered Users**: The report of April 2021 shows registered bike riders’ number is 118024. According to the data only 4% of the registered bike riders are returning their bikes to the same station. To be able to understand which stations are used to most used stations divided into four categories. Red and orange categories are particularly important since the usage of the bikes are higher in these categories. Only 3% of the bike stations show particularly used by registered riders. This result indicates we can improve the numbers of the bikes inside of these categories. Further investigation would be analysing how many of our bikes are already in the bike stations before the registration. Especially this information would be important for us to track so that at rush hours we can provide more bikes since 80% of the registered riders are daily workers.  Therefore, rush hour/ traffic/weather analysis can be crucial to check. We only know 4% of the bikes are coming back to the start station. The next analysis will be how many of the bikes are going to red and orange category stations. If we know the number of the bikes that would be help us to estimate how many bikes we need to support on these stations. 80% of the registered riders are salaried employees and they usually tempted to leave their bikes to another station (explains 4%) close to their works. 
+
+**Casual Users**: The report of April 2021 shows casual bike riders’ number is 99449. 13.7 % of the casual bike riders are returning their bikes to the same station.
+
+## Pollution effect on bike demand 
+
+## KPIs
+
+**Growing ridership: 
+1) 49% increased in casual, 67 % increased in registered next year 
+PHOTO
+2) Casual users demand is throughout the day (09:00-19:00), whereas registered riders demand peaks at rush hours. 
+PHOTO 
+**User preference and behaviour:
+3) Demand increases with temperature, whereas decreasing with humidity and cold weather
+PHOTO
+**Supply and Demand: 
+4) Most demanding bike stations for registered and casual 
+PHOTO
+5) Casual users average ride duration is 3x longer than registered users 
+PHOTO
+
+## Summary
+
+## Data sources
+
+## Legal Terms
 
 
 
