@@ -10,9 +10,9 @@ Performance evaluation of "Capital Bike Share" bike-sharing system
 * [Introduction](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Introduction)
   * [Motivation](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Motivation)  
   * [Data](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Data) 
-    * [Files Description](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Data)  
-    * [Programming Languages](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Data) 
-* [Empowering the business](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#bikesharing---the-domain)
+    * [Files Description](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Files Description)  
+    * [Programming Languages](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Programming Languages) 
+* [Empowering the business](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#bikesharing---Empowering the Business)
   * [Growing ridership](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
     * [Users and time profiles](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
   * [Users’ preferences and behaviors](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#exploratory-analysis)
@@ -30,7 +30,7 @@ Micromobility in US shows big increase from 2010. Increasing population, and tra
 > “The growth of bike share shows no signs of stopping.” NACTO, National Association of City Transportation Officials, reported in 2017
 
 ### Motivation
-The aim of this project based on analyzing the data of the “Capital Bikeshare” empower their business. Based on Washington DC Capital bikeshare provides bikeshare system, with more than 4,300 bikes available at 500 stations. Bikes are available 24 hours a day, 7 days a week, 365 days a year.  We were asked firstly to provide some proofs of how and which features has an effect on demand of bikes and secondly measuring KPIs to ensure that one can accomplish the business objective. The **project challenges** include finding the right features correlated with the bike demand through proofs with visualization and machine learning, finding model fits the best to the dataset, and predicting business growth with time series analysis. 
+The aim of this project based on analyzing the data of the “Capital Bikeshare” empower their business. Based on Washington DC Capital bikeshare provides bikeshare system, with more than 4,300 bikes available at 500 stations. Bikes are available 24 hours a day, 7 days a week, 365 days a year.  We were asked firstly to provide some proofs of how and which features has an effect on demand of bikes and secondly measuring KPIs to ensure that one can accomplish the business objective. We are expected to find also an answer how pollution effects the demand of bikes and The **project challenges** include finding the right features correlated with the bike demand through proofs with visualization and machine learning, finding model fits the best to the dataset, and predicting business growth with time series analysis. 
 
 ### Data
 We were provided with a dataset containing hourly and daily count of rental bikes (2011-2012), as well as data (2021) from capital bikeshare website obtained to analyze the request of the complains about the non-availability of bikes. 
@@ -73,9 +73,27 @@ Daily count rider bikes was taken account for the ridership analysis:
    9) Demand increased by 63% in 2012 compared to 2011  
 
 ### User preference and behaviour (LINK TO THE FILE) 
-##### Correlation Matrix 
+#### Features 
+##### Correlation Matrix (LINK) 
 
-Features of 'season', 'yr’, weather, ‘hr, mnth, 'temp',  'hum' 
+A correlation matrix is a table showing which features (independent variables) have the most influence on aiding determination of the dependent variable. It is a useful tool when it comes to choose from multiple models. Correlation matrix has been used to understand which feature is more correlated to the demand. Features of 'season', 'yr’, ‘hr, mnth, 'temp', weather, 'hum' has been chosen for furher investigation. 
+
+##### Plots (LINK)
+
+   1) Demand increases with the increase in temperature. Temperature is higher in summer season. 
+   2) Humidity increases with rain/snow declines the demand 
+   3) Not comfortable weather (rainy, snowy)= lower demand 
+
+#### Model Performance (LINK)
+
+We can use regression analysis to understand the relationship between one or more independent variables and a dependent variable. To check how well a regression model fits a dataset one way would be to calculate the root mean square error (RMSE). RMSE is a metric providing the square root of the average of squared distance between the prediction  from the model and the actual values in the dataset. Using the selected features "Random Forest Regressor" showed the best fit to the dataset. 
+
+## Supply and Demand 
+
+
+
+
+
 
 
 
