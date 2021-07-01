@@ -41,6 +41,7 @@ We were provided with a dataset containing hourly and daily count of rental bike
 </div>
 
 
+
 <div align="center">
 <img src="/images/Github_3.png" width="500px"</img> 
 </div>
