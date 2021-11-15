@@ -7,22 +7,22 @@ Performance evaluation of "Capital Bike Share" bike-sharing system
 
 ## Table of contents
 
-* [Introduction](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Introduction)
-  * [Motivation](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Motivation)  
-  * [Data](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Data) 
-    * [Files Description](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Files-Description)  
-    * [Programming Languages](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Programming-Languages) 
-* [Empowering the business](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#bikesharing---Empowering-the-Business)
-  * [Growing ridership](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Growing-ridership)
-    * [Users and time profiles](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Users-and-time-profiles)
-  * [Users’ preferences and behaviors](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Users’-preferences-and-behaviors)
-    * [Features and model performance](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Features-and-model-performance)
-  * [Supply and demand analysis](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Supply-and-demand-analysis)
-  * [Pollution effect on bike demand](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Pollution-effect-on-bike-demand)
-* [KPIs](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#KPIs)
-* [Summary](https://github.com/10409/Capital-Bike-Share-/edit/main/README.md#Summary)
-* [Data sources](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#data-sources)
-* [Legal Terms](https://github.com/davidellavalle/Capital-Bikeshare/blob/main/README.md#legal-terms)
+* [Introduction](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Introduction)
+  * [Motivation](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Motivation)  
+  * [Data](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Data) 
+    * [Files Description](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Files-Description)  
+    * [Programming Languages](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Programming-Languages) 
+* [Empowering the business](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#bikesharing---Empowering-the-Business)
+  * [Growing ridership](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Growing-ridership)
+    * [Users and time profiles](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Users-and-time-profiles)
+  * [Users’ preferences and behaviors](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Users’-preferences-and-behaviors)
+    * [Features and model performance](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Features-and-model-performance)
+  * [Supply and demand analysis](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Supply-and-demand-analysis)
+  * [Pollution effect on bike demand](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Pollution-effect-on-bike-demand)
+* [KPIs](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#KPIs)
+* [Summary](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Summary)
+* [Data sources](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#data-sources)
+* [Legal Terms](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#legal-terms)
 
 ## Introduction
 
