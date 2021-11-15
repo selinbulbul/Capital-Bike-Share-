@@ -60,6 +60,7 @@ To be able to reach our aim three performance evaluation groups were investigate
 
 ### [Growing ridership](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/Daily%20Data%20Visualisations-%20GitHub.ipynb) (TIME SERIES ANALYSIS) 
 Daily count rider bikes was taken account for the ridership analysis: 
+#### Users and time profiles
 #### Users Profile   
    1) Registered customers demand is 4 x more than casual in 2011-2012
    2) Both users show increase in 2012 compared to 2011
