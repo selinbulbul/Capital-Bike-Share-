@@ -20,7 +20,6 @@ Performance evaluation of "Capital Bike Share" bike-sharing system
   * [Supply and demand analysis](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Supply-and-demand-analysis)
   * [Pollution effect on bike demand](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Pollution-effect-on-bike-demand)
 * [KPIs](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#KPIs)
-* [Summary](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#Summary)
 * [Data sources](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#data-sources)
 * [Legal Terms](https://github.com/selinbulbul/Capital-Bike-Share-/blob/main/README.md#legal-terms)
 
@@ -133,8 +132,6 @@ PHOTO
 <div align="center">
 <img src="/images/Duration.png " width="400px"</img> 
 </div>
-
-## Summary
 
 ## Data sources
 
